@@ -2,12 +2,17 @@ body {
     font-family: Roboto, Oxygen, Ubuntu;
     margin: 0;
 }
+header,
+.top-content {
+    background-color: #1F2937;
+    color: #ffffff;
+}
+
 header {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    background-color: #1F2937;
-    color: #ffffff;
+    padding: 0px 100px;
 }
 
 ul {
@@ -19,4 +24,39 @@ ul {
 a {
     text-decoration: none;
     color: white;
+}
+
+img {
+    height: 300px;
+    width: 500px;
+    object-fit: cover;
+}
+
+.top-content {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 50px;
+    padding: 50px 100px 100px 100px;
+}
+
+.left-text {
+    width: 400px; 
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+.left-text .welcome {
+    font-size: 48px;
+    font-weight: bolder;
+}
+
+button {
+    background-color: #3882F6;
+    border-color: #3882F6;
+    border-style: none;
+    border-radius: 5px;
+    padding: 5px 10px;
+    color: #ffffff;
+    width: 90px;
 }
