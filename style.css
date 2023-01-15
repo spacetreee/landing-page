@@ -2,6 +2,7 @@ body {
     font-family: Roboto, Oxygen, Ubuntu;
     margin: 0;
 }
+
 header,
 .top-content {
     background-color: #1F2937;
@@ -65,4 +66,24 @@ button {
     padding: 5px 10px;
     color: #ffffff;
     width: 90px;
+}
+
+/*Middle content section*/
+
+.mid-content {
+    background-color: #ffffff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.info-header {
+    color: #1F2937;
+    font-size: 36px;
+    font-weight: bolder;
+}
+
+.gallery {
+    display: flex;
 }
