@@ -33,7 +33,7 @@ a {
     color: white;
 }
 
-img {
+.top-content img {
     height: 300px;
     width: 500px;
     object-fit: cover;
@@ -86,4 +86,15 @@ button {
 
 .gallery {
     display: flex;
+    gap: 30px;
+}
+
+.gallery img {
+    width: 100px;
+    height: 100px;
+    object-fit: cover;
+    border-radius: 5px;
+    border-color: #3882F6;
+    border-width: thin;
+    border-style: solid;
 }
