@@ -96,12 +96,37 @@ button {
     width: 100px;
     height: 100px;
     object-fit: cover;
-    border-radius: 5px;
+    border-radius: 10px;
     border-color: #3882F6;
-    border-width: thin;
+    border-width: 2px;
     border-style: solid;
 }
 
 .gallery-content {
     text-align: center;
 }
+
+/* Testimony section */
+
+.testimony {
+    background-color: #E5E7EB;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 50px;
+}
+
+.testimony p {
+    font-style: italic;
+    font-size: 36px;
+    color: #1F2937;
+    width: 500px;
+}
+
+.testimony div {
+    display: flex;
+    width: 500px;
+    justify-content: flex-end;
+    font-weight: bold;
+}
+
