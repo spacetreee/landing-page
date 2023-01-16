@@ -3,6 +3,7 @@ body {
     margin: 0;
 }
 
+/*header*/
 header,
 .top-content {
     background-color: #1F2937;
@@ -13,7 +14,7 @@ header {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding: 0px 100px;
+    padding: 0px 200px;
 }
 
 .logo {
@@ -26,12 +27,15 @@ ul {
     display: flex;
     gap: 20px;
     font-size: 18px;
+    color: #E5E7EB;
 }
 
 a {
     text-decoration: none;
     color: white;
 }
+
+/*top content*/
 
 .top-content img {
     height: 300px;
@@ -44,7 +48,7 @@ a {
     justify-content: center;
     align-items: center;
     gap: 50px;
-    padding: 50px 100px 100px 100px;
+    padding: 50px 200px 100px 200px;
 }
 
 .left-text {
@@ -77,7 +81,7 @@ button {
     align-items: center;
     flex-direction: column;
     padding-top: 40px;
-    padding-bottom: 60px;
+    padding-bottom: 100px;
 }
 
 .info-header {
@@ -119,8 +123,10 @@ button {
 .testimony p {
     font-style: italic;
     font-size: 36px;
+    font-weight: lighter;
     color: #1F2937;
     width: 500px;
+
 }
 
 .testimony div {
@@ -134,9 +140,15 @@ button {
 
 .contact {
     background-color: white;
-    padding: 50px;
+    padding: 10px 50px;
     display: flex;
     justify-content: center;
+}
+
+.reach-text {
+    font-weight: bold;
+    font-size: 16px;
+    margin-bottom: 5px;
 }
 
 .float-box {
