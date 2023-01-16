@@ -130,3 +130,26 @@ button {
     font-weight: bold;
 }
 
+/* contact section */
+
+.contact {
+    background-color: white;
+    padding: 50px;
+    display: flex;
+    justify-content: center;
+}
+
+.float-box {
+    background-color:#3882F6;
+    color: white;
+    padding: 30px 100px 30px 100px;
+    width: 700px;
+    display: flex;
+    justify-content: space-between;
+    border-radius: 5px;
+}
+
+.float-box button {
+    border-style: solid;
+    border-color: white;
+}
